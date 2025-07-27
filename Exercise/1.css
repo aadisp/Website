@@ -1,0 +1,67 @@
+ .prize{
+    color: rgb(0,118,0);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .link{
+    color: rgb(0,113,133);
+    transition: 0.15s;
+    cursor: pointer;
+  }
+  .link:hover{
+    color: rgb(255, 145, 0);
+  }
+
+
+  .name{
+    font-size: 24;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .addtocart-button{
+    background-color: rgb(255, 216, 20);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: lighter;
+    border: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 17.5px;
+    cursor: pointer;
+    margin-top: 8px; 
+    margin-right: 8px;
+    transition: 0.15s, opacity 0s;
+    cursor: pointer;
+  }
+  .addtocart-button:hover{
+    background-color: rgb(233, 197, 17);
+  }
+  .addtocart-button:active{
+    opacity: 0.5;
+  }
+
+
+  .buy-button{
+    background-color: rgb(255, 164, 28);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight:lighter;
+    border: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 17.5px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: 0.15s, opacity 0s;
+  }
+  .buy-button:hover{
+    background-color: rgb(243, 136, 21);
+  }
+  .buy-button:active{
+    opacity: 0.5;
+  }

@@ -1,0 +1,112 @@
+.name,.email,.yes,.no,.gulugulu,.thank,.searchbar{
+  margin: 0px;
+}
+.name,.email{
+  display: block;
+  margin-top: 5px;
+}
+.thank{
+  padding: 13px;
+  width: 190px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.yes,.no{
+  vertical-align: middle;
+}
+.first{
+  margin-top: 25px;
+}
+.emaill{
+  display: block;
+  margin-top: 9.5px;
+  width: 140px;
+  padding: 7px;
+  padding-right: 84px;
+}
+.first,.last{
+  width: 70px;
+  padding: 7px;
+  padding-right: 35px;
+}
+.first,.last,.emaill{
+  border-style: solid;
+  border-radius: 6px;
+  border-color: rgb(171, 171, 171);
+  border-width: 1px;
+}
+.Sign-up{
+  margin-top: 9.5px;
+  width: 234px;
+  background-color: rgb(59, 131, 255);
+  border: none;
+  border-radius: 5.5px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+.head{
+  font-family: arial;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.pickup,.drop{
+  display: block;
+  margin-bottom: 8px;
+  padding: 13px;
+  padding-left: 20px;
+  width: 300px;
+  border:none;
+  background-color: rgb(247, 247, 247);
+  border-radius: 3.5px;
+}
+.request{
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 13px;
+  width: 120px;
+  margin-right: 13px;
+}
+.schedule{
+  margin-top: 25px;
+  background-color: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 13px;
+  width: 147px;
+  margin-right: 13px;
+}
+.gululu{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.gulugulu{
+  width: 180px;
+  display: block;
+  margin-left: 200px;
+}
+.searchbar{
+  display: block;
+  margin-top: 13px;
+  margin-left: 70px;
+  margin-bottom: 33px;
+  border: none;
+  width: 430px;
+  box-shadow: 0 0 5.5px rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: arial;
+  font-weight:normal;
+}
+.gs,.lucky{
+  font-family: Arial;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+}
+.gs{
+  margin-left: 150px;
+}

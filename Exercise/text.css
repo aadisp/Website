@@ -1,0 +1,153 @@
+p{
+  margin: 0;
+}
+
+  .Tahoma{
+    font-family: Tahoma;
+    font-size: large;
+    margin-bottom: 30px;
+  }
+  .Arial{
+    font-family:Arial;
+    font-size:x-large;
+    margin-bottom: 30px;
+  }
+  .b{
+    line-height: 25px;
+    font-size: medium;
+    font-style: italic;
+    color: orange;
+  }
+  .Verdana{
+    font-family: Verdana;
+    width: 280px;
+  }
+  .beginner{
+    line-height: 20px;
+    font-size:12.5px;
+    color: rgb(170, 170, 170);
+  }
+  .In-this{
+    margin-bottom: 18.5px;
+    font-family: Verdana;
+    width: 240px;
+    margin-top: 15px;
+    font-size: 12.5px;
+    line-height: 18px;
+  }
+  .button{
+    font-family: Verdana;
+    font-size: 12px;
+    margin-bottom: 30px;
+    background-color: rgb(23, 123, 0);
+    color: white;
+    font-weight: 550;
+    padding:6.5px 9px;
+    margin-right: 595px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .button:hover{
+    cursor: pointer;
+  }
+  .Apple{
+    font-family: Arial;
+    font-size: 28;
+    margin-bottom: 17px;
+  }
+  .desc{
+    font-family: Arial;
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+  .link{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(1, 146, 204);
+    margin-bottom: 30px;
+  }
+  .link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .Apple,.desc,.link{
+    text-align: center;
+  }
+  .e,.e-sec,.e-third,.e-fourth,.e-{
+    text-align: center;
+    font-family: Arial;
+  }
+  .e{
+    color: orange;
+    font-size: small;
+    margin-bottom: 5px;
+  }
+  .e-sec{
+    color: black;
+    font-size: 21px;
+  }
+  .e-third{
+    color: black;
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .e-fourth{
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  .e-{
+    color: white;
+    font-size: small;
+    background-color: rgb(0, 111, 238);
+    padding:5.5px 11.5px; 
+    border-radius:12px;
+    line-height: 50px;
+  }
+  .e-:hover{
+    cursor: pointer;
+  }
+  .f,.pl,.f-third{
+    font-family: Arial;
+  }
+  .f{
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  .usd{
+    color: gray;
+    font-size: 10.5;
+  }
+  .pl{
+    color: rgb(0, 190, 0);
+    font-size:10px;
+    margin-bottom: 3px;
+  }
+  .f-third{
+    color: gray;
+    font-size: small;
+    margin-bottom: 30px;
+  }
+  .f-{
+    color: red;
+  }
+  .g,.g-sec,.g-{
+    font-family: Arial;
+  }
+  .g{
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  .at{
+    font-weight: normal;
+    color: gray;
+  }
+  .g-sec{
+    width: 550px;
+    line-height: 24px;
+    margin-bottom: 22px;
+  }
+  .chp{
+    color: rgb(88, 176, 231);
+  }

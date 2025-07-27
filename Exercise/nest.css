@@ -1,0 +1,129 @@
+p{
+  margin: 0;
+}
+.image{
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.data,.pp,.follow{
+  display: inline-block;
+  font-family: Arial;
+  vertical-align: middle;
+}
+.data{
+  width: 210px;
+  padding-bottom: 1px;
+}
+.name{
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(44, 44, 44);
+  margin-top: -5px;
+}
+.des{
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 1px;
+  color: rgb(127, 127, 127);
+}
+.tag{
+  font-size: 10px;
+  color: rgb(123, 123, 123);
+}
+.fllw{
+  border: none;
+  background-color: rgb(55, 145, 229);
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 5.5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+.a{
+  display: block;
+  margin-bottom: 15px;
+}
+.a-supreme{
+  display: inline-block;
+  margin-right: 140px;
+}
+.b{
+  margin-top: 30px;
+  display: block;
+  line-height: 30px;
+}
+.img-one{
+  width: 180px;
+}
+.right{
+  font-family: Calibri;
+  width: 216.7px;
+  padding-left: 7px;
+  line-height: 20px;
+}
+.right,.left{
+  display: inline-block;
+  vertical-align: top;
+}
+.ttle{
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.chnl,.stats{
+  font-size: 14px;
+  color: rgb(96,96,96);
+}
+.c{
+  vertical-align: top;
+}
+.col-one,.col-two,.col-three{
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  margin-right: 8px;
+}
+.up-one{
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+}
+.up-one,.c-name,.down-sec,.add{
+  display: block;
+}
+.nett,.net-img,.col-one,.col-two,.col-three,.c{
+  display: inline-block;
+}
+.down{
+  font-family: Calibri;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+.c-name{
+  font-weight: bold;
+  font-size: 14px;
+}
+.nett{
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+  vertical-align: top;
+}
+.add{
+  color: white;
+  background-color: rgb(80, 131, 234);
+  padding: 8px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  border: none;
+}
+.c-img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  object-fit: cover;
+  display: inline-block;
+}

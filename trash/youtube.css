@@ -1,0 +1,58 @@
+.thumbnail,.thumbnail-two{
+  width: 300px;
+  display: block;
+}
+.logo,.logo-two{
+  width: 40px;
+  margin:0px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(o,o,o,1);
+}
+.r-one,.r-two,.r-three{
+  font-family: Roboto;
+  margin: 0;
+}
+.r-two,.r-three{
+  color: rgb(96, 96, 96);
+  font-size: 10px;
+}
+.r-one{
+  font-weight: 500;
+  font-size: 14px;
+  height:33.6px;
+}
+.div,.div-two{
+  width: 300px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.div-two{
+  margin-left: 13px;
+  vertical-align: top;
+}
+.searchbox{
+  display: block;
+}
+.left,.right{
+  display: inline-block;
+  vertical-align: top;
+}
+.left{
+  height:69px;
+  margin-right: 4px;
+}
+.low{
+  width: 300px;
+  margin-top: 10px;
+  height: 101.6px;
+}
+.right{
+  margin-top: -15px;
+  width: 248px;
+}
+.r-two{
+  margin-bottom: -8px;
+  margin-top: -5px;
+}

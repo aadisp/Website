@@ -1,0 +1,125 @@
+.supreme{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  column-gap: 15px;
+  row-gap: 55px;
+  padding-right: 24px;
+}
+
+@media (min-width: 870px) and (max-width: 1124px){
+  .supreme{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1124px){
+  .supreme{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.one{
+  display: inline-block;
+}
+.up{
+  position: relative;
+}
+.v-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 4px;
+  bottom: 10px;
+  right: 4px;
+  border-radius: 3px;
+}
+.up-one{
+  width: 100%;
+}
+.left-one{
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.down{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  padding-top: 7px;
+}
+.right{
+  height: 69px;
+}
+.title{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-top: -13.5px;
+  line-height: 19px;
+}
+.name{
+  font-family: Roboto;
+  font-size: 12px;
+  height:16px;
+  margin-left: 8px;
+  margin-top: -3px;
+  color: rgb(95,95,95);
+}
+.stat{
+  font-family: Roboto;
+  font-size: 12px;
+  height: 19px;
+  margin-left: 8px;
+  margin-top: -10px;
+  color: rgb(95,95,95);
+}
+.left{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  height: fit-content;
+}
+.left .chngltip{
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.35);
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.left:hover .chngltip{
+  opacity: 1;
+}
+.chngltip:hover{
+  opacity: 1;
+}
+.chnglrt{
+  padding-left: 10px;
+  line-height: 20px;
+}
+.changle{
+  height:50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.chnglenm{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.chnglsub{
+  font-family: Roboto;
+  font-size: small;
+  color: rgb(99, 99, 99);
+}

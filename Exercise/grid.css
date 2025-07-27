@@ -1,0 +1,67 @@
+.a{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.b{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-top: 30px;
+}
+.c{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;  
+  row-gap: 10px;
+}
+.c-one,.c-two,.c-three,.c-four,.c-five,.c-six,.c-seven,.c-eight{
+  background-color: pink;
+}
+.f-supreme{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 125px 125px 125px;
+  column-gap: 15px;
+}
+.f,.ff,.fff{
+  width: 125px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  font-family: Arial;
+  border-radius: 4px;
+}
+.f{
+  margin-left: 0;
+}
+.image,.imagee,.imageee{
+  width: 125px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.oliver,.rex,.mimi{
+  font-weight: bold;
+  font-size: 13px;
+}
+.oliver,.mimi,.rex,.mutual,.mutuall,.mutualll,.add{
+  margin-left: 7px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+.mutual,.mutuall,.mutualll{
+  font-size: x-small;
+  color: rgb(138, 138, 138);
+  margin-bottom: 10px;
+}
+.add{
+  border: none;
+  background-color: rgb(40, 112, 237);
+  color: white;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 3px;
+}

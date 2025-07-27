@@ -1,0 +1,67 @@
+.side-bar{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 72px;
+  margin-top: 56px;  
+  padding-top: 4px;
+  z-index: 2;
+}
+.hme:hover,.explr:hover,.subs:hover,.orgnls:hover,.yt-msc:hover,.lib:hover{
+  background-color: rgb(232, 232, 232);
+  cursor: pointer;
+}
+.hme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+  padding-top: 16px;
+  padding-bottom: 9px;
+}
+.explr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 6px;
+  padding-top: 15.5px;
+  padding-bottom: 8.5px;
+}
+.subs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 4px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+.orgnls,.lib{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 6px;
+  padding-top: 15.5px;
+  padding-bottom: 9px;
+}
+.yt-msc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+  padding-top: 15.5px;
+  padding-bottom: 9px;
+}
+.home,.explore,.subscriptions,.originals,.yt-music,.library{
+  height: 24px;
+}
+.hm,.explor,.sub,.orgnl,.yt-msic,.lb{
+  font-family: Roboto;
+  font-size: x-small;
+}
+
+
+
+
+

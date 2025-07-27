@@ -1,0 +1,47 @@
+.chngl{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.chngl .chngltip{
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.35);
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.chngl:hover .chngltip{
+  opacity: 1;
+}
+.chngltip:hover{
+  opacity: 1;
+}
+.chnglrt{
+  padding-left: 10px;
+  line-height: 20px;
+}
+.changle{
+  height:50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.chnglenm{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.chnglsub{
+  font-family: Roboto;
+  font-size: small;
+  color: rgb(99, 99, 99);
+}
